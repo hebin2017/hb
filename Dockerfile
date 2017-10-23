@@ -1,4 +1,4 @@
-FROM tomcat:9-jre8
+FROM myapp:latest
 MAINTAINER hb
 
 ADD myuan-test /home/app/
