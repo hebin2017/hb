@@ -1,5 +1,5 @@
 FROM myapp:latest
-MAINTAINER hb
+MAINTAINER hebin
 
 ADD boot.jar /home/app/
 
