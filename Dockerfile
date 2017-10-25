@@ -1,7 +1,7 @@
 FROM myapp:latest
 MAINTAINER hb
 
-ADD myuan-test /home/app/
+ADD boot.jar /home/app/
 
 EXPOSE 8080
-CMD ["catalina.sh", "run"]
+CMD ["java","-jar","/home/app/boot.jar"]
